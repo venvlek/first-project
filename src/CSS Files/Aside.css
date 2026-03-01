@@ -1,0 +1,41 @@
+/* ===== ASIDE ===== */
+.aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 72px;
+  height: 100vh;
+  background-color: #ffffff;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  gap: 24px;
+  z-index: 200; /* Higher than header */
+}
+
+/* Buttons */
+.aside-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 10%;
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.aside-btn:hover {
+  background-color: #efefef;
+}
+
+/* Bottom icon */
+.aside-bottom {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.aside-btn svg {
+  font-size: 18px;
+}

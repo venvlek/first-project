@@ -1,0 +1,114 @@
+/* ===== HEADER ===== */
+.header {
+  position: fixed;
+  top: 0;
+  left: 72px;              /* 👈 PUSHED BY ASIDE */
+  width: calc(100% - 72px);
+  height: 64px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+/* Logo */
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e60023;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+/* Navigation */
+.header-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.header-nav button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.header-nav button:hover {
+  background-color: #efefef;
+}
+
+/* Search */
+.header-search {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: hsl(0, 0%, 94%);
+padding: 4px 14px;
+border-radius: 10px;
+  flex: 1;
+  margin: 0 16px;
+}
+
+.header-search input {
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 30px;
+  border: none;
+  background-color: #efefef;
+  outline: none;
+  font-size: 14px;
+
+}
+
+/* Icons */
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-icon {
+  cursor: pointer;
+  font-size: 18px;
+}
+.header-icon.microphone {
+  padding: 9px;
+}
+.header-icon.microphone:hover {
+  background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+}
+
+/* Profile */
+.header-profile {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.header-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+}
+.header-icon {
+  font-size: 18px;
+  cursor: pointer;
+  color: #555;
+}
+
+.header-icon:hover {
+  color: #000;
+}
