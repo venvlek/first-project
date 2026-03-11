@@ -112,3 +112,17 @@ border-radius: 10px;
 .header-icon:hover {
   color: #000;
 }
+.dark-theme .header {
+  background-color: #333;
+  color: #fff;
+}
+.dark-theme .header-search {
+  background-color: #555;
+}
+.dark-theme .header-search input {
+  background-color: #555;
+  color: #fff;
+}
+.dark-theme .header-icon {
+  color: #fff;
+}

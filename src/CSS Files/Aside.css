@@ -39,3 +39,13 @@
 .aside-btn svg {
   font-size: 18px;
 }
+.dark-theme .aside {
+  background-color: #333;
+  border-right: 1px solid #555;
+}
+.dark-theme .aside-btn {
+  color: #fff;
+}
+.dark-theme .aside-btn:hover {
+  background-color: #555;
+}
