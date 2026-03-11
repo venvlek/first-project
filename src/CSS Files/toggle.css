@@ -29,3 +29,10 @@
 .dark-theme .toggle img {
     filter: invert(0);
 }
+
+@media (max-width: 600px) {
+    .toggle {
+        top: 90%;
+        left: 90%;
+    }
+}
